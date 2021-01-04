@@ -28,7 +28,7 @@ param(
  [string]$resourceGroupLocation,
 
  [Parameter(Mandatory=$True)]
- [string]$deploymentName = "initial",
+ [string]$deploymentName,
 
  [Parameter(Mandatory=$False)]
  [string]$templateFilePath = ".\deploy.json",
